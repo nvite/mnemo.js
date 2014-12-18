@@ -126,3 +126,5 @@ var Mnemo = function () {
     stringSplit: stringSplit
   };
 };
+
+module.exports = Mnemo();
