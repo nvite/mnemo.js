@@ -1,0 +1,23 @@
+{
+  "name": "mnemo.js",
+  "version": "0.0.1",
+  "description": "A JavaScript implementation of Rufus::Mnemo (https://github.com/jmettraux/rufus-mnemo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvite/mnemo.js"
+  },
+  "keywords": [
+    "mnemonic",
+    "hashing"
+  ],
+  "author": "Dan Drinkard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvite/mnemo.js/issues"
+  },
+  "homepage": "https://github.com/nvite/mnemo.js"
+}
