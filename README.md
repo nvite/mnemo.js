@@ -3,6 +3,12 @@ mnemo.js
 
 A Javascript Implementation of Rufus::Mnemo (https://github.com/jmettraux/rufus-mnemo)
 
+Installation
+------------
+```
+> npm i --save mnemo
+```
+
 Usage
 -----
 
