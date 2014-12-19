@@ -1,7 +1,7 @@
 mnemo.js
 ========
 
-A Javascript Implementation of Rufus::Mnemo
+A Javascript Implementation of Rufus::Mnemo (https://github.com/jmettraux/rufus-mnemo)
 
 Usage
 -----
