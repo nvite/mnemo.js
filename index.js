@@ -61,7 +61,7 @@ var Mnemo = function () {
     if (string.length < 1) {
       return result;
     }
-    result.concat([string.substr(0, 2)]);
+    result = result.concat([string.substr(0, 2)]);
 
     return stringSplit(string.substr(2), result);
   }
@@ -109,21 +109,18 @@ var Mnemo = function () {
       return 0;
     }
 
-    var m = NEGATIVE.match(string);
+    var m = string.match(NEGATIVE);
     if (m) {
       return -1 * _toI(m[1]);
     }
 
-    return SYL.length * _toI(string.substr(0, -3) + toNumber(string.substr(-2)));
+    return SYL.length * _toI(string.substr(0, string.length - 2)) + toNumber(string.substr(-2));
   }
 
   return {
     fromInteger: fromInteger,
     toInteger: toInteger,
-    toNumber: toNumber,
-    split: split,
-    isMnemoWord: isMnemoWord,
-    stringSplit: stringSplit
+    isMnemoWord: isMnemoWord
   };
 };
 
