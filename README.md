@@ -13,11 +13,11 @@ Usage
 -----
 
 ```javascript
-var mnemo = require('mnemo');
-mnemo.fromInteger(12345);
+> var mnemo = require('mnemo');
+> mnemo.fromInteger(12345);
 // => 'bineka'
-mnemo.toInteger('bineka');
+> mnemo.toInteger('bineka');
 // => 12345
-mnemo.isMnemoWord('bineka');
+> mnemo.isMnemoWord('bineka');
 // => true
 ```
